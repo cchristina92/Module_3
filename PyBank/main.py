@@ -2,10 +2,10 @@ import csv
 import os
 
 # Set file path 
-file_path = os.path.join("C:\Users\cchri\Desktop\Data Analyst Bootcamp\Homework\Module 3\Module_3\PyBank\Resources\budget_data.csv")
+file_path = os.path.join("..", "Resources", "budget_data.csv")
 
 # Set text output
-text_path = os.path.join("analysis", "analysis_results.txt")
+text_path = os.path.join(".", "analysis", "analysis_results.txt")
 
 # Variables
 total_months = 0
